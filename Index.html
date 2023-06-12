@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FoxRiver-Leleih</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <button class="scrollbtn" id="btn" type="button" onclick="scrolltoTop"><i class="fa fa-arrow-up"></i></button>
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <a href="#home">Personal Website</a>
+        </div>
+        <ul class="menu" id="menu">
+            <li><a href="#home" onclick="menu()">Home</a></li>
+            <li><a href="#about" onclick="menu()">About</a></li>
+            <li><a href="#services" onclick="menu()">Services</a></li>
+            <li><a href="#portfolio" onclick="menu()">Portfolio</a></li>
+            <li><a href="#blog" onclick="menu()">Blog</a></li>
+            <li><a href="#contact" onclick="menu()">Contact</a></li>
+        </ul>
+        <div class="menu-btn" onclick="menu()"><i class="fa fa-bars"></i></div>
+    </nav>
+
+    <div class="home" id="home" style="background-color: black;">
+        <div class="home-content">
+            <h1 class="name">I am LELEIH.</h1>
+            <p>I am human, or at least I think I am. What really defines someone as human?  &nbsp; Well that is a question for another day.</p>
+            <p style="margin: 34px; font-size: large;">"Most people go through their lives thinking they know what exactly their future hold for them, they got the fantasy of what world is, but sometimes you going through your day and bang there is an explosion and everything you know is gone. Make you, you wish you think differently." </p>
+            <p><span class="typing"></span></p>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="info">
+                    <div class="personal">
+                        <div class="photo">
+                            <img src="images/intro-bg.png" alt="image">
+                        </div>
+                        <div class="name">
+                            <br>
+                            <p><span>Name:  </span>Emmanuel Mutai</p>
+                            <p><span>Profile:  </span>Machine learning & Android Developer</p>
+                            <p><span>Email:  </span>emmanuelmutai247@gmail.com</p>
+                            <p><span>Phone:  </span>+254790757192</p>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h4>Skills</h4>
+                        <div class="skills">
+                            <span>Java</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-line"><span class="java"></span></div>
+                        <div class="skills">
+                            <span>Python</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-line"><span class="python"></span></div>
+                        <div class="skills">
+                            <span>matlab</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-line"><span class="matlab"></span></div>
+                        <div class="skills">
+                            <span>PHP</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-line"><span class="php"></span></div>
+                    </div>
+                </div>
+                <div class="aboutme">
+                    <h5>About me</h5>
+                    <p>I'am a goal oriented, determined and ambitious man with a passion for Data Science. Big Data is my other passion. I've working on several projects on the field of Machine learning for over 2 years now.</p>
+                    <p>I graduated as a Computer Science student from Dedan Kimathi University of Technology in june 2023 and I am happy to be part of this exciting industry-growing and embracing new learnings along the way.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h3 class="title">Services</h3>
+            <div class="line"></div>
+            <div class="services-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-mobile"></i></div>
+                        <div class="card-title" style="font-weight: bolder; font-size: 22px; color: palevioletred;">Android Development</div>
+                        <p>Android offers a unified approach to application development for mobile devices which means developers need only develop for Android, and their applications should be able to run on different devices powered by Android</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-codepen"></i></div>
+                        <div class="card-title" style="font-weight: bolder; font-size: 22px; color: palevioletred;">Machine learning</div>
+                        <p>Machine learning provides smart alternative for large-scale data analysis. Machine Learning can produce accurate results and analysis by developing fast and effiecient alogorithm and data driven models for real-time data processing.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-code"></i></div>
+                        <div class="card-title" style="font-weight: bolder; font-size: 22px; color: palevioletred;">Web Development</div>
+                        <p>Is the work involved in developing a website for the internet(World Wide Web) or an intranet(a Private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses and social network services.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h3 class="title">Portfolio</h3>
+            <div class="line"></div>
+            <div class="portfolio-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="images/App.png" alt="Image">
+                        </div>
+                        <div class="info">
+                            <h3>Project 1</h3>
+                            <p><span class="category">Android Development</span> &nbsp; 15 November 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="images/ml.png" alt="Image">
+                        </div>
+                        <div class="info">
+                            <h3>Project 2</h3>
+                            <p><span class="category">Machine Development</span> &nbsp; 15 November 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img  src="images/web.png">
+                        </div>
+                        <div class="info">
+                            <h3>Project 3</h3>
+                            <p><span class="category">Web Development</span> &nbsp; 15 November 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="container">
+            <h3 class="title">Blog</h3>
+            <div class="line"></div>
+            <div class="blog-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="images/travel.jpg" alt="Image">
+                        </div>
+                        <div class="info">
+                            <div class="category">Travel</div>
+                            <h3>Travel</h3>
+                            <p>Travel isn't always pretty. It isn't always comfortable. Sometimes it hurts, it even break your heart. But that's totally okay. The journey changes you; it should change you. It leaves marks on your memory, on your conciousness, on your heart and on your body. You take something with you. Hopefully, you leave something good behind.</p>
+                        </div>
+                        <div class="author">
+                            <div class="name">
+                                <img src="images/author2.jpg" alt="Image">
+                                <p>Chepkemoi Mercy</p>
+                            </div>
+                            <div class="date">
+                                <p>16 August 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="images/riding.png" alt="Image">
+                        </div>
+                        <div class="info">
+                            <h3>Sports</h3>
+                            <div class="category">Riding</div>
+                            <p>Learning to ride a motorcycle can be fun. The best way to learn how to properly ride is in a safe and controlled manner. Always practice safety and be sure you have appropriate safety gear for the type of ridig you will do. Beginners can enroll in motorcycle safety courses that give you the tools to be a proper rider.</p>
+                        </div>
+                        <div class="author">
+                            <div class="name">
+                                <img src="images/me.jpg" alt="Image">
+                                <p>Emmanuel Mutai</p>
+                            </div>
+                            <div class="date">
+                                <p>13 March 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="images/community.png" alt="Image">
+                        </div>
+                        <div class="info">
+                            <h3>Community Service</h3>
+                            <div class="category">Plumbing</div>
+                            <p>In every community service and service learning there are hundreds human being more just like it's filled with kind-heared individuals volunteering their time to better our communities. Individual partcipation represent the best in all of us. Being part of this community means having the opportunity to do something truly special: Selflessly serve others. </p>
+                        </div>
+                        <div class="author">
+                            <div class="name">
+                                <img src="images/author1.jpg" alt="Image">
+                                <p>Chepkemoi Mercy</p>
+                            </div>
+                            <div class="date">
+                                <p>28 May 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="container-content">
+                <div class="message">
+                    <form action="https://formspree.io/f/xjvdnbrl" method="POST">
+                        <h3 class="heading">Message Me</h3>
+                        <div class="line"></div>
+                        <div class="field">
+                            <input type="text" name="name" placeholder="Your Name" required> 
+                        </div>
+                        <div class="field">
+                            <input type="email" name="email" placeholder="Your Email" required> 
+                        </div>
+                        <div class="field">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="field">
+                            <textarea cols="30" rows="10" name="message" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="gettouch">
+                    <br>
+                    <h3 class="heading">Get in Touch</h3>
+                    <div class="line"></div>
+                    <p>Feel free to hire the lad for any services on the fields stated in the Services section above. Thank You!</p>
+                    <br><br>
+                    <div class="info"><i class="fa fa-map-marker"> &nbsp; 11-20400 St Michael Seconday School Bomet Town</i></div>
+                    <div class="info"><i class="fa fa-phone"> &nbsp;+254790757192</i></div>
+                    <div class="info"><i class="fa fa-envelope"> &nbsp;emmanuelmutai247@gmail.com</i></div>
+                    <br>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100071021777320" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook">&nbsp; &nbsp;</i></a>
+                        <a href="https://twitter.com/fox_river2005" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter">&nbsp; &nbsp;</i></a>
+                        <a href="https://www.linkedin.com/in/leleih-emmanuel-86519a251/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin">&nbsp; &nbsp;</i></a>
+                        <a href="https://github.com/Foxriver-2005" target="_blank" rel="noopener noreferrer"><i class="fa fa-github">&nbsp; &nbsp;</i></a>
+                        <a href="https://www.instagram.com/fox_river2471?r=nametag" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram">&nbsp; &nbsp;</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p> &copy; Copyright Personal Website. All rights Reserved</p>
+        </footer>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
